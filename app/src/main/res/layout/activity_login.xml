@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -27,6 +27,8 @@
                 android:id="@+id/textView"
                 android:layout_width="356dp"
                 android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="Inicio de Sesión"
                 android:textAlignment="center"
                 android:textColor="@color/green"
@@ -34,6 +36,7 @@
                 android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/txtusuario"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
@@ -48,6 +51,7 @@
                 android:textColorHint="@color/cardview_dark_background" />
 
             <EditText
+                android:id="@+id/txtclave"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
